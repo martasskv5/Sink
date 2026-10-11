@@ -15,7 +15,7 @@
   "upload_source_maps": true,
   "observability": {
     "logs": {
-      "enabled": true
+      "enabled": truei
     },
     "traces": {
       "enabled": true
@@ -60,5 +60,8 @@
   ],
   "triggers": {
     "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
+  }
+  "vars": {
+    "NUXT_CF_ACCOUNT_ID": "martas"
   }
 }
