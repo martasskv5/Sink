@@ -12,7 +12,7 @@
     "nodejs_compat"
   ],
   "keep_vars": true,
-  "upload_source_maps": true,
+  "upload_source_maps": true,ef3c9f5e3e5d7e479f8126dc4bfa765f
   "observability": {
     "logs": {
       "enabled": true
@@ -62,6 +62,6 @@
     "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
   },
   "vars": {
-    "NUXT_CF_ACCOUNT_ID": "martas"
+    "NUXT_CF_ACCOUNT_ID": "ef3c9f5e3e5d7e479f8126dc4bfa765f"
   }
 }
